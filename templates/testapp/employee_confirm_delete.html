@@ -1,0 +1,6 @@
+<form method="POST">
+    {%csrf_token%}
+    {{form.as_p}}
+    <button type="submit">Confirm delete</button>
+    <a href="/">Cancel</a>
+</form>
